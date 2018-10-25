@@ -14,7 +14,7 @@ public class CustomerServiceImpl implements CustomerService {
 	@Autowired
 	private CustomerDao custdao;
 	
-	
+	//function definitions
 
 	@Override
 	public List<Customer> getAllCustomers() {

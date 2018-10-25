@@ -5,7 +5,7 @@ import org.springframework.stereotype.Repository;
 
 import com.sba3.model.Customer;
 
-
+//extending jpa repo
 @Repository
 public interface CustomerDao extends JpaRepository<Customer, Long>{
 	

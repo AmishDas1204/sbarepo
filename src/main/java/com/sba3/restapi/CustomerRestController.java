@@ -20,7 +20,7 @@ public class CustomerRestController {
 
 	@Autowired
 	private CustomerService custService;
-	
+	//adding mappings and defining the entities
 	@GetMapping("/show")
 	public ResponseEntity<List<Customer>> getAllCustomers(){
 		

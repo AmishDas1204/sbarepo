@@ -14,18 +14,18 @@ public class Customer {
 	
 
 			@Id
-			private long id;
+			private long id;//id of customer
 			
-			private String name;
+			private String name;//name of customer
 			
-			private String date;
+			private String date;//date of joining of customer
 			
-			private String city;
+			private String city;//city from which customer has come
 			
-			private int contact;
+			private int contact;//contact info of customer
 			
 			
-
+           //setters and getters
 			public String getDate() {
 				return date;
 			}

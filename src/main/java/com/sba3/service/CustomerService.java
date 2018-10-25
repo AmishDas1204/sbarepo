@@ -6,7 +6,7 @@ import com.sba3.model.Customer;
 
 public interface CustomerService {
 
-	Customer addCustomer(Customer customer);
-	List<Customer> getAllCustomers();
+	Customer addCustomer(Customer customer);//for adding customer
+	List<Customer> getAllCustomers();//for viewing customer
 	
 }
